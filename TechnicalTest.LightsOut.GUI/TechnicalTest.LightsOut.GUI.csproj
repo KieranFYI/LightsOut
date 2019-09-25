@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TechnicalTest.LightsOut\TechnicalTest.LightsOut.csproj">
+      <Project>{d965e7de-11f6-4aab-8e91-379eba00c17e}</Project>
+      <Name>TechnicalTest.LightsOut</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
